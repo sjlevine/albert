@@ -145,7 +145,7 @@ void ProposalList::ItemDelegate::paint(QPainter *painter, const QStyleOptionView
     // Calculate text rects
     QFont font1 = option.font;
     QFont font2 = option.font;
-    font2.setPixelSize(12);
+    font2.setPixelSize(18);
     QFontMetrics fontMetrics1 = QFontMetrics(font1);
     QFontMetrics fontMetrics2 = QFontMetrics(font2);
     QRect contentRect = option.rect;
